@@ -3,4 +3,5 @@
 /src/dist
 /src/build
 /src/node_modules
-./.idea
+.idea
+.git
