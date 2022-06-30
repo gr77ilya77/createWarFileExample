@@ -31,13 +31,6 @@ module.exports = {
         path: __dirname + "/dist",
         filename: "[name].[ext]"
     },
-    module: {
-        rules: [
-            {
-                test: /\.(png|jpe?g|gif|svg|html)$/i,
-                use: ['file-loader'],
-            }]
-    },
     plugins: [
         new WebpackWarPlugin({
             archiveName: 'archive',
