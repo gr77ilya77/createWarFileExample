@@ -1,0 +1,20 @@
+{
+  "name": "fixture_6",
+  "version": "0.0.0",
+  "description": "Test fixture specifying a different archive name, bundling multiple assets, adding a WEB-INF folder and adding additional elements",
+  "main": "fixture_6.func.spec.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": " npm run clean",
+    "build": "cd src && npm run build && cd ../ && webpack --display-error-details"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.2",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1",
+    "webpack-war-plugin": "^1.0.0-beta.3"
+  }
+}

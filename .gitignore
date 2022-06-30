@@ -1,0 +1,6 @@
+/dist
+/node_modules
+/src/dist
+/src/build
+/src/node_modules
+./.idea
